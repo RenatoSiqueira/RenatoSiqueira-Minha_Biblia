@@ -1,0 +1,72 @@
+@media (min-width:768px){
+    .card-header_livro{
+        display: flex;
+        justify-content: space-between;   
+    }
+}
+
+.colunas{
+    list-style: none;
+    columns: 2;        
+    text-decoration: none;
+
+    a{
+        color: rgb(77, 75, 75);
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 576px){
+    .container {
+        padding: 0;
+    }
+    .card{
+        margin-top: 0.3rem;
+
+        .card-body{
+            padding: 0.5rem 0.4em 0 0.4em;
+        }
+        .colunas{
+            padding: 0;
+            a{
+                font-size: medium;
+            }
+        }
+    }    
+}
+
+@media (min-width: 768px){
+    .card{
+        margin-top: 0.3rem;
+        .colunas{
+            padding: 0;
+        }
+    }    
+}
+
+@media (min-width: 992px){
+    .main{
+        display: flex;
+        justify-content: center;
+
+        .card{
+            width: 100%;
+            margin: 0 0.2rem;
+        }
+    }
+}
+
+.listaCapitulos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    a{
+       width: 100px;
+       font-weight: bold;
+       color: rgb(77, 75, 75);
+       padding: 0 .5em; 
+       margin: auto; 
+       text-align: center;
+    }
+}

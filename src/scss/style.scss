@@ -1,0 +1,15 @@
+@import "tests.scss";
+@import "livro.scss";
+@import "versiculo.scss";
+
+//* Default
+.principal{ padding-top: 4em; }
+.jumbotron{ padding-bottom: 2.4rem; }
+
+//* Used on Livro/Capitulo/Versiculo
+cite{ font-weight: bold; }
+
+//* Footer
+footer { padding: 0.5rem 0 0 0; }
+
+

@@ -1,0 +1,39 @@
+{
+  "name": "minha-biblia",
+  "version": "1.0.0",
+  "description": "App Exemplo de Uso de Node/Express/Ejs/Sass/Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenatoSiqueira/minha-biblia.git"
+  },
+  "keywords": [
+    "Biblia",
+    "Node",
+    "Express",
+    "Ejs",
+    "Sass",
+    "Gulp"
+  ],
+  "author": "Renato Siqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenatoSiqueira/minha-biblia/issues"
+  },
+  "homepage": "https://github.com/RenatoSiqueira/minha-biblia#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "mysql": "^2.15.0"
+  }
+}
