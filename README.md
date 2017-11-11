@@ -55,19 +55,22 @@ const connection = mysql.createConnection({
 ```
 
 ### Iniciando ###
-
-    - **Faça o clone:**
-        - ```$ git clone https://github.com/RenatoSiqueira/minha-biblia.git```
-
-    - **Instale os pacotes necessários:**
-        - ```$ npm install```
-
-    - **Inicie o Servidor:**
-        - ```$ npm start```
-
-    - **Caso deseje, abra em outro terminal [para edição Html/Sass em live reload]:**
-        - ```$ gulp```
-
+**Faça o clone:**
+```javascript
+  $ git clone https://github.com/RenatoSiqueira/minha-biblia.git
+  ```
+**Instale os pacotes necessários:**
+```javascript
+  $ npm install
+```
+**Inicie o Servidor:**
+```javascript
+$ npm start
+```
+**Caso deseje, abra em outro terminal [para edição Html/Sass em live reload]:**
+```javascript
+$ gulp
+```
 
 - ### Pré-Requisitos ###
     - [NodeJs](https://nodejs.org/en/download/)
